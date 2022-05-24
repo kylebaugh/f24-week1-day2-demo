@@ -141,9 +141,8 @@ Asking Your Questions
 
   reader.question("Howdy, what's your name?", function(answer) {
     console.log("Hi " + answer);
-
-
-// Close readline instance (Boilerplate - don't worry about understanding this right now)
-    
+   
     reader.close()
   });
+
+- The line ``reader.close()`` closes the readline instance (Boilerplate - don't worry about understanding this right now)
